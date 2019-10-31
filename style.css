@@ -46,6 +46,18 @@ h2 {
     margin-top: 3em;
     margin-bottom: 1em;
    }
+h3 {
+    font-size: 100%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 3em;
+    margin-bottom: 0em;
+    }
+th {color: maroon;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    }
 div.book {
     background-image: url("images/bookNarrow.png");
     background-repeat: repeat-y;
