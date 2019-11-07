@@ -7,6 +7,7 @@
         <title>Family</title>
         <meta name="description" content="An Ordinary Man">
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="functions.js"></script>
     </head>
     <body>
         <div class="book">
@@ -14,8 +15,33 @@
                 <p style="text-align: right"><a href="toc.html">ToC</a></p>
             </header>
             <section>
+              <div class="">
                 <h1>My Family</h1>
                 <p>xxx</p>
+                <p>yyy</p>
+              </div>
+              <div style="position: relative; height: 700px;">
+                  <svg id="mySVG" style="position: absolute; top: 50px; width: 700px; height: 700px;"></svg>
+                  <!-- Photos -->
+                  <div style="position: absolute; top: 0px;">
+                      <img id="photo" style="position: absolute; left: 290px;" src="images/JamesJames.jpg">
+                      <img id="photo" style="position: absolute; left: 490px;" src="images/EileenJames.jpg">
+                      <p style="position: absolute; top: 50px; left: 380px; width: 100px; text-align: center; font-size: 75%;">Married 6th February 1943</p>
+                  </div>
+                  <!-- Names -->
+                  <div style="position: absolute; top: 110px; left: 220px; width: 180px;">
+                      <p style="text-align: center;">James Edward James (1923 - )</p>
+                  </div>
+                  <div style="position: absolute; top: 110px; left: 420px; width: 180px;">
+                      <p style="text-align: center;">Eileen May James (nee Ludlam) (1921 - 2012)</p>
+                  </div>
+                  <!-- Lines -->
+                  <script>
+                      createLineH(260, 0, 80);
+                      createLineRight(300, 120, 90);
+                      createLineLeft(300, 120, 90);
+                  </script>
+              </div>
             </section>
             <footer>
                 <p>&copy; David James 2019   Last updated: 5th November 2019</p>
