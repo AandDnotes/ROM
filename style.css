@@ -67,3 +67,10 @@ div.book {
     width: 82px;
     height: 100px;
 }
+table.pub{
+  border: none;
+  margin-left: 30px;
+}
+td.pub {
+  text-indent: -30px;
+}
