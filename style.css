@@ -74,3 +74,10 @@ table.pub{
 td.pub {
   text-indent: -30px;
 }
+th.car1 {width: 160px;}
+th.car2 {width: 70px;}
+th.car3 {width: 45px;}
+th.car4 {width: 100px;}
+th.car5 {width: 60px;}
+tr.car {text-align: left; vertical-align: top;}
+img.car {width: 150px;}
