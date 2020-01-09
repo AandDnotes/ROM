@@ -74,6 +74,8 @@ table.pub{
 td.pub {
   text-indent: -30px;
 }
+table.car {border-collapse: collapse; width: 100%;}
+table.car, tr.car {border: 1px solid darkgrey}
 th.car1 {width: 160px;}
 th.car2 {width: 70px;}
 th.car3 {width: 45px;}
