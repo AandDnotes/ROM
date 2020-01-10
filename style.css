@@ -1,3 +1,4 @@
+<style type="text/css">
 body {
     font-size: 12pt;
     font-family: "Comic Sans MS", sans-serif;
@@ -31,6 +32,36 @@ footer {
     padding: 1px 50px 1px 50px;
     width: 700px;
     box-shadow: 10px 10px 5px grey;
+    }
+div.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #eee;
+    color: #000;
+    padding: 20px;
+    }
+div.box:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: 1;
+    }
+a.divLink {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    /* Makes sure the link doesn't get underlined */
+    z-index: 10;
+    /* raises anchor tag above everything else in div */
+    background-color: white;
+    /*workaround to make clickable in IE */
+    opacity: 0;
+    /*workaround to make clickable in IE */
+    filter: alpha(opacity=0);
+    /*workaround to make clickable in IE */
     }
 h1 {
     font-size: 250%;
@@ -74,8 +105,6 @@ table.pub{
 td.pub {
   text-indent: -30px;
 }
-table.car {border-collapse: collapse; width: 100%;}
-table.car, tr.car {border: 1px solid darkgrey}
 th.car1 {width: 160px;}
 th.car2 {width: 70px;}
 th.car3 {width: 45px;}
