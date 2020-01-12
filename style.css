@@ -1,4 +1,4 @@
-<style type="text/css">
+
 body {
     font-size: 12pt;
     font-family: "Comic Sans MS", sans-serif;
@@ -92,19 +92,19 @@ th {color: maroon;
 div.book {
     background-image: url("images/bookNarrow.png");
     background-repeat: repeat-y;
-}
+    }
 #photo {
     box-shadow: 10px 10px 5px #888888;
     width: 82px;
     height: 100px;
-}
+    }
 table.pub{
   border: none;
   margin-left: 30px;
-}
+  }
 td.pub {
   text-indent: -30px;
-}
+  }
 th.car1 {width: 160px;}
 th.car2 {width: 70px;}
 th.car3 {width: 45px;}
