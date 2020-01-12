@@ -112,3 +112,9 @@ th.car4 {width: 100px;}
 th.car5 {width: 60px;}
 tr.car {text-align: left; vertical-align: top;}
 img.car {width: 150px;}
+table.time, th.time, tr.time, td.time {
+  vertical-align: top;
+  border: 1px solid darkgrey;
+  border-collapse: collapse;
+  padding: 5px;
+  }
