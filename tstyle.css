@@ -73,7 +73,7 @@ div.book {
     background-color: maroon;
     top: 0;
     bottom: 0;
-    left: 158px;
+    left: 163px;
     margin-left: -3px;
     }
 /* Container around content */
@@ -89,7 +89,7 @@ div.book {
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 141px;
+    left: 146px;
     background-color: darkgrey;
     border: 4px solid #FF9F55;
     top: 10px;
@@ -99,12 +99,12 @@ div.book {
 /* Place the container to the left */
 .left {
     left: 0;
-    width: 130px;
+    width: 135px;
     }
 /* Place the container to the right */
 .right {
-    left: 35px;
-    width: 505px;
+    left: 40px;
+    width: 500px;
     }
 /* Add arrows to the left container (pointing right) */
 .left::before {
