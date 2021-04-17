@@ -1,7 +1,7 @@
 
 body {
     font-size: 12pt;
-    font-family: "Comic Sans MS", 'Marker Felt', sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     font-weight: normal;
     font-style: normal;
     color: black;
@@ -116,6 +116,12 @@ th.car5 {width: 60px;}
 tr.car {text-align: left; vertical-align: top;}
 img.car {width: 150px;}
 table.time, th.time, tr.time, td.time {
+  vertical-align: top;
+  border: 1px solid darkgrey;
+  border-collapse: collapse;
+  padding: 5px;
+  }
+table.say, th.say, tr.say, td.say {
   vertical-align: top;
   border: 1px solid darkgrey;
   border-collapse: collapse;
